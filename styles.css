@@ -1,0 +1,54 @@
+li {
+  color: rgba(77, 19, 160, 0);
+  font-size: 20px;
+}
+
+h1 {
+  font-family: monospace, arial, helvetica;
+  background-color: brown;
+  font-size: 30px;
+  font-weight: 900;
+  text-decoration: underline;
+  text-align: center;
+  text-shadow: -1px 1px 1px blue;
+  box-shadow: 3px 3px 2px black;
+}
+
+h2 {
+  font-family: "Over the Rainbow", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+span {
+  font-family: "Rubik Puddles", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+a {
+  text-decoration-style: wavy;
+}
+
+p {
+  text-align: justify;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+}
+
+.p-green {
+  color: green;
+}
+
+.with-border {
+  border: 2px dashed blue;
+  border-radius: 5px;
+}
+
+#img-circle {
+  border-radius: 50%;
+}
+
+ul > li {
+  text-decoration: underline;
+}
