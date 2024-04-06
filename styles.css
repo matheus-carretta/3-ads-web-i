@@ -1,5 +1,16 @@
+* {
+  margin: 0px;
+}
+
+body {
+  /* margin: 10px 20px 30px; */
+  width: 80%;
+  text-align: center;
+  margin: 0 auto;
+}
+
 li {
-  color: rgba(77, 19, 160, 0);
+  color: rgba(77, 19, 160, 1);
   font-size: 20px;
 }
 
@@ -12,6 +23,8 @@ h1 {
   text-align: center;
   text-shadow: -1px 1px 1px blue;
   box-shadow: 3px 3px 2px black;
+  border: 1px solid black;
+  margin-bottom: 10px;
 }
 
 h2 {
@@ -31,9 +44,12 @@ a {
 }
 
 p {
-  text-align: justify;
+  text-align: center;
   background-color: rgba(0, 0, 0, 0.8);
   color: white;
+  width: 50%;
+  padding: 10px 20px;
+  margin: 0 auto;
 }
 
 .p-green {
@@ -49,6 +65,30 @@ p {
   border-radius: 50%;
 }
 
-ul > li {
-  text-decoration: underline;
+button {
+  /* display: block; */
+  margin-left: 50px;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+.list-box {
+  width: 100%;
+  display: inline-block;
+  border: 1px solid red;
+}
+
+.lists {
+  width: 49%;
+  display: inline-block;
+}
+
+.left {
+  color: black
+}
+
+.right {
+  border: 1px solid blue
 }
