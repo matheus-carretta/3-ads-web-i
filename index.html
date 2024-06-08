@@ -50,5 +50,41 @@
     <br>
     <a href="#titulo-principal">Voltar ao início</a>
     <button>Teste</button>
+
+    <form>
+      <label for="texto">
+        Texto:
+        <input type="text" name="texto" required maxlength="5" id="texto" autocomplete="off" />
+      </label>
+      Senha:
+      <input type="password" placeholder="Mínimo 8 caracteres" required />
+      Email:
+      <input type="email" value="m@gmail.com" autocomplete="on" />
+      Number:
+      <input type="number" min="10" max="100" step="5" />
+      File:
+      <input type="file" />
+      Selecione sua ferramenta web preferida
+      <div>
+        <input type="radio" id="html" name="fav-tool" />
+        <label for="html">HTML</label>
+      </div>
+      <div>
+        <input type="radio" id="css" name="fav-tool" />
+        <label for="css">CSS</label>
+      </div>
+      <div>
+        <input type="radio" id="javascript" name="fav-tool" />
+        <label for="javascript">JavaScript</label>
+      </div>
+      Selecione o estado:
+      <select name="estado">
+        <option value="es">ES</option>
+        <option value="rj">RJ</option>
+      </select>
+      <button type="reset">Apagar dados</button>
+      <button type="submit">Enviar</button>
+
+    </form>
   </body>
 </html>

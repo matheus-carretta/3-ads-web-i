@@ -92,3 +92,15 @@ ul, ol {
 .right {
   border: 1px solid blue
 }
+
+form {
+  border: 2px solid black;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  margin: 5px 0;
+  outline: 0;
+}
