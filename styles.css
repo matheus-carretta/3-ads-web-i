@@ -104,3 +104,7 @@ input {
   margin: 5px 0;
   outline: 0;
 }
+
+.teste {
+  background-color: red;
+}
